@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="login.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="left">
+          <div id="signin">
+            <div class="logo">
+              <img src="data:image/png;base64,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" alt="Sluralpright"/>
+            </div>
+              
+            <form>
+                <div>
+                  <label>Email or username</label>
+                  <input type="text" class="text-input" />
+                </div>
+    
+                <div>
+                  <label>Password</label>
+                  <input type="password" class="text-input" />
+                </div>
+    
+                <button type="submit" class="primary-btn">Sign In</button>
+              </form>
+
+              <div class="links">
+                <a href="#">Forgot Password</a>
+                <a href="#">Sign in with company or school</a>
+              </div>
+    
+              <div class="or">
+                <hr class="bar" />
+                <span>OR</span>
+                <hr class="bar" />
+              </div>
+    
+              <a href="#" class="secondary-btn">Create an account</a>
+    
+              <footer id="main-footer">
+                <p>Copyright &copy; 2018, Sluralpright All Rights Reserved</p>
+    
+                <div>
+                  <a href="#">Terms of use</a> | <a href="#">Privacy Policy</a>
+                </div>
+         </footer>
+            </div>
+          </div>
+
+          <div id="right">
+            <div id="showcase">
+              <div class="showcase-content">
+                <h1 class="showcase-text">
+                  Let's create the future <strong>together</strong>
+                </h1>
+                <a href="#" class="secondary-btn">Start a FREE 10-day trial</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+</body>
+</html>
